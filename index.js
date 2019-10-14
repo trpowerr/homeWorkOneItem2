@@ -1,6 +1,6 @@
 'use strict'
-let numbersAr = [25000, 5000, 40000, 40000];
-let winner = 0;
+var numbersAr = [25000, 5000, 40000, 40000];
+var winner = 0;
 for ( let value of numbersAr) {
     if (winner < value) {
         winner = value;
